@@ -93,13 +93,46 @@
             font-size: 20px;
             font-weight: 700;
         }
-        .pil-des p, .black-14-70{
+        .pil-des p, .black-14-70 {
             color: rgba(14, 14, 14, 0.7);
         }
         .pil-img img{
             height: 32px;
             width: 32px;
             display: block;
+        }
+        #donate{
+            display: flex;
+            flex-direction: column;
+            gap: 48px;
+        }
+        #doTo-des{
+            width: 95%;
+            text-align: center;
+            margin: 0 auto;
+
+        }
+        .taka-div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 85%;
+            margin: 0 auto;
+        }
+        .taka-amount{
+            padding: 30px 36px;
+            border-radius: 16px;
+            font-size: 32px;
+            font-weight: 800;
+            box-shadow: 1px 2px 2px 1px gray;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            background-color: white;
+            color: rgba(0, 0, 0, 0.8);
+        }
+        .taka-amount:hover{
+            background-color: #C6E4D6;
+            transform: scale(1.1);
+            cursor: pointer
         }
         .social-icon-list{
             display: flex;
@@ -206,8 +239,15 @@
         <section>
             <h3>Recent News</h3>
         </section>
-        <section>
-            <h3>Donate Today</h3>
+        <section id="donate">
+            <h3 style="text-align: center; margin-bottom: 0;">Donate Today</h3>
+            <p class="black-14-70" id="doTo-des">Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation, and robust infrastructure.</p>
+            <div class="taka-div">
+                <div class="taka-amount">100 Taka</div>
+                <div class="taka-amount">200 Taka</div>
+                <div class="taka-amount">500 Taka</div>
+                <div class="taka-amount">1000 Taka</div>
+            </div>
         </section>
         <section>
             <h3>Subscribe Newsletter</h3>
